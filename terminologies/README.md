@@ -13,3 +13,7 @@ When a part of a memory is used for keeping data that are used frequently, that 
 ### Dirty pages
 
 Data on page cache which has to be written to disk. 
+
+
+### Thread
+What the hell is Thread? It is nothing but a set of register values which makes it a unit that can be independently executed on a CPU core. Universally, thread has stack pointer and instruction pointer. So during multithreading, threads save where they left before reliquishing the CPU. How nice is that :) 
