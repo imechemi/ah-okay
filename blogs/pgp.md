@@ -8,8 +8,7 @@ know about the other key. They keys can be generated using:
 
         ssh-keygen -T 
         
-It will generate by default `id_rsa` and `id_rsa.pub` keys in your computer's `~/.ssh/` directory. The `id_rsa` is your private key and `id_rsa.pub` 
-is your private key. 
+It will generate by default `id_rsa` and `id_rsa.pub` keys in your computer's `~/.ssh/` directory. The `id_rsa` is your private key and `id_rsa.pub` is your public key. 
 
 Lets says Bob wants to send a secret message to Alice. What Bob need is the public key of Alice so that the message can only by 
 decrypted by Alice using her private key. 
