@@ -1,6 +1,6 @@
 
 ### Volatile memory
-The devices which can store data while it is powered. 
+The devices that can store data only when it is powered. 
 
 
 
