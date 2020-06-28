@@ -2,13 +2,11 @@
 
 It's a Pretty Good Privacy.
 
-PGP is a cryptographic system that uses asymmetric keys to hold a secure encrypted communication. The key to this system is that a user generates
-a PGP user generates a key pairs which are called public and private keys. Part of the reason why these are called asymmetric keys is that one key cannot be used to 
-know about the other key. They keys can be generated using:
+PGP is a cryptographic system that uses asymmetric keys to hold a secure encrypted communication. The key to this system is that a user generates key pairs which are called public and private keys. Part of the reason why these are called asymmetric keys is that one key cannot be used to know about the other key. They keys can be generated using:
 
         ssh-keygen -T 
         
-It will generate by default `id_rsa` and `id_rsa.pub` keys in your computer's `~/.ssh/` directory. The `id_rsa` is your private key and `id_rsa.pub` is your public key. 
+By default, it will generate `id_rsa` and `id_rsa.pub` keys in your computer's `~/.ssh/` directory. The `id_rsa` is your private key and `id_rsa.pub` is your public key. 
 
 Lets says Bob wants to send a secret message to Alice. What Bob need is the public key of Alice so that the message can only by 
 decrypted by Alice using her private key. 
