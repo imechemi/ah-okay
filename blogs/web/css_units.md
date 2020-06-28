@@ -12,7 +12,7 @@ element to a different location in the DOM.
 
 But if you make it a relative unit, now the value is dependent upon parent element or the viewport. 
 
-For example: if you make `<p>` font-size to be 1.5em. Now the actual font-size of content of `<p>` element depends on it's parent element's font-size.
+For example: if you make `<li>` font-size to be 1.5em. Now the font-size of content of `<li>` element depends on it's parent element's font-size.
 
 
 ```html
