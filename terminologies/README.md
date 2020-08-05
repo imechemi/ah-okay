@@ -24,3 +24,7 @@ Reactive programming is a different style of programming, where you build compos
 style of programming. 
 
 Example: Think of it as cells in spreadsheets. When a cell A1 gets updated, then other cells depending on A1 also gets updated. 
+
+
+### Bearer Token
+It is a token issued by authorization server which can be used to access resources protected by that auth server.
