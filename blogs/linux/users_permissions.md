@@ -3,12 +3,13 @@
 There can be multiple users in a linux. They can be grouped and allowed to perform only certain operations. This can be controlled using 
 read/write/execute (stickybit) permission.
 
-To check existing users
+# List users
 
 ```
 cat /etc/passwd
 ```
 
+# Show single user
 ```
 # getent passwd | grep vagrant
 vagrant:x:1000:1000::/home/vagrant:/bin/bash
@@ -23,3 +24,30 @@ The above command has printed a row containing seven columns explained below
 5. user's name or comment field
 6. home directory of the user
 7. login shell
+
+
+# Create new user
+```
+useradd <username> 
+```
+
+# Create password for the user
+
+```
+password <username>
+```
+
+# Create user with and assign home directory
+
+```bash
+useradd <username> -d <directory location>
+```
+
+# Assign directory to existing user
+
+```bash
+usermod -d <new-directory> <username>
+```
+
+
+
