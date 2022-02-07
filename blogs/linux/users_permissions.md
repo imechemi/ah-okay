@@ -3,6 +3,12 @@
 There can be multiple users in a linux. They can be grouped and allowed to perform only certain operations. This can be controlled using 
 read/write/execute (stickybit) permission.
 
+## Create group
+
+```bash
+groups add <group-name>
+```
+
 ## List users
 
 ```
@@ -25,10 +31,14 @@ The above command has printed a row containing seven columns explained below
 6. home directory of the user
 7. login shell
 
-
 ## Create new user
 ```
 useradd <username> 
+```
+
+## Create user and add to a group
+```
+useradd -g <group> <username>
 ```
 
 ## Create password for the user
@@ -48,6 +58,7 @@ useradd <username> -d <directory location>
 ```bash
 usermod -d <new-directory> <username>
 ```
+
 
 
 
