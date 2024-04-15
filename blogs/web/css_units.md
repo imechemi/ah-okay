@@ -20,12 +20,15 @@ For example: if you make `<li>` font-size to be 1.5em. Now the font-size of cont
   <li class="one">Alice</li>
   <li class="two">Bob</li>
   <li class="three">Tenzin</li>
+  <li class="four">Jordan</li>
 </ul>
 ```
 
 ```css
 // Different ways to express the same value. 
-
+:root {
+  font-size: 48px;
+}
 
 body {
   font-size: 16px; // default is 16px. 
@@ -44,6 +47,10 @@ li.two {
 // Relative
 li.three {
   font-size: 150%;  // 50% larger than the parent element i.e <ul> or <body> tag's font-size (16px * 1.5 = 24px)
+}
+
+li.four {
+  font-size: 0.5rem; // 50% of the font-size of the :root element which is 48 * 0.5 = 24px
 }
 ```
 
